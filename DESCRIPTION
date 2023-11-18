@@ -1,11 +1,14 @@
 Package: jR
-Title: What the Package Does (One Line, Title Case)
+Title: Data and tools for justice reinvestment in Australia
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Talia", "Hagerty", , "talia@justreinvest.org.au", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0452-527X"))
+Description: Provides easy access to commonly-used data for justice reinvestment work in Australia. Justice reinvestment work - from community decision making to research and evaluation to the reallocation of taxpayer funds - typically requires data that is disaggreated to a highly-specific level (by age, sex/gender, and Aboriginality, and for very small geographies). Much of this data is publiclly available, but may be hard to find and laborious to work with. The jR package makes these datasets more accessible. The current focus is on post-code level population data for NSW (from the Australian census), but other datasets will be added on an ongoing basis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
