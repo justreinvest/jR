@@ -14,7 +14,7 @@
 #'   \item{postal_area}{ABS Postal Areas for NSW}
 #'   \item{indicator}{Indicators giving the age cohort, sex, and Aboriginality, including totals}
 #'   \item{year}{Year}
-#'   \item{value}{Population value}
+#'   \item{value}{Population value.}
 #'   ...
 #' }
 #' @source <https://www.abs.gov.au/census/find-census-data/datapacks?release=2021&product=GCP&geography=POA&header=S>
