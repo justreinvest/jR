@@ -21,3 +21,4 @@ usethis::use_data(lga_attributes, overwrite = TRUE)
 ## TODO(th): add documentation
 ## TODO(th): incorporate metadata
 
+
