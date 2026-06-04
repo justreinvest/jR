@@ -18,5 +18,5 @@
 #'   \item{value}{Population value.}
 #'   ...
 #' }
-#' @source <https://www.abs.gov.au/census/find-census-data/datapacks?release=2021&product=GCP&geography=POA&header=S>
-"population_postcode"
+#' @source <https://www.abs.gov.au/census/find-census-data/datapacks?release=2021&product=IP&geography=LGA&header=S>
+"population_lga"

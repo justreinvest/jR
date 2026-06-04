@@ -51,7 +51,7 @@ population_lga <- read.csv("./data-raw/2021Census_I03A_NSW_LGA.csv") %>%
   pivot_age_data() %>%
   rbind(read.csv("./data-raw/2021Census_I03B_NSW_LGA.csv") %>% pivot_age_data()) %>%
   rbind(read.csv("./data-raw/2021Census_I03C_NSW_LGA.csv") %>% pivot_age_data()) %>%
-  mutate(year = "2021") %>%
+  mutate(year = 2021L) %>%
   left_join(codes, by = "LGA_CODE_2021") %>%
   rename(LGA_name = `Census_Name_2021`) %>%
   select(LGA_name, LGA_CODE_2021, indicator, year, value)
