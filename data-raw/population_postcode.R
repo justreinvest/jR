@@ -12,7 +12,7 @@ tmp <- read.csv("./data-raw/2021Census_G07_NSW_POA.csv")
 
 population_postcode <- tmp %>%
   pivot_longer(!`POA_CODE_2021`, names_to = "indicator", values_to = "value" ) %>%
-  mutate(year = "2021") %>%
+  mutate(year = 2021L) %>%
   rename(postal_area = `POA_CODE_2021`) %>%
   select(postal_area, indicator, year, value)
 
